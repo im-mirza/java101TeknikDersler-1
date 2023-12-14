@@ -13,12 +13,12 @@ public class FibonacciSerisi {
         girilenSayi = sc.nextInt();
 
         // Girilen sayıya kadar olan Fibonacci serisini hesaplayıp ekrana yazdırma işlemi
-        System.out.println(fibonachi(girilenSayi));
+        System.out.println(fibonachi(girilenSayi)); 
 
     }
 
 
-    // Recursive bir şekilde Fibonacci serisini hesaplayan fonksiyon 
+    // Recursive bir şekilde Fibonacci serisini hesaplayan fonksiyon
     public static int fibonachi(int n) {
         // Base case: Eğer n 1 veya daha küçükse, 1'i geri döndür.
         if (n <= 1) {
