@@ -13,7 +13,7 @@ public class FibonacciSerisi {
         girilenSayi = sc.nextInt();
 
         // Girilen sayıya kadar olan Fibonacci serisini hesaplayıp ekrana yazdırma işlemi
-        System.out.println(fibonachi(girilenSayi)); 
+        System.out.println(fibonachi(girilenSayi));
 
     }
 

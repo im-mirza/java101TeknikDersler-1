@@ -13,7 +13,7 @@ public class DaireninAlaninVeCevresiniHesaplama {
         double cevre=2*pi*r;
 
         System.out.println("Dairenin alani: "+alan);
-        System.out.println("Dairenin Cevresi: "+cevre);
+        System.out.println("Dairenin Cevresi: "+cevre); 
 
     }
 }
