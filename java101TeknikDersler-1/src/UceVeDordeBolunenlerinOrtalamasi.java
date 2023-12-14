@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HesapMakinesi {
+public class UceVeDordeBolunenlerinOrtalamasi {
     public static void main(String[] args) {
         int girilenSayi, saygac=0,j=0;;
 
