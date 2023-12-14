@@ -10,7 +10,7 @@ public class FibonacciSerisi {
 
         // Kullanıcıdan bir sayı isteniyor.
         System.out.println("Bir sayi Gir");
-        girilenSayi=sc.nextInt();
+        girilenSayi = sc.nextInt();
 
         // Girilen sayıya kadar olan Fibonacci serisini hesaplayıp ekrana yazdırma işlemi
         System.out.println(fibonachi(girilenSayi));
@@ -19,13 +19,15 @@ public class FibonacciSerisi {
 
 
     // Recursive bir şekilde Fibonacci serisini hesaplayan fonksiyon
-    public static int fibonachi(int n){
+    public static int fibonachi(int n) {
         // Base case: Eğer n 1 veya daha küçükse, 1'i geri döndür.
-        if(n<=1){
+        if (n <= 1) {
+
+
             return 1;
-        }else {
+        } else {
             // Recursive adımlar: n-1 ve n-2 için fibonachi fonksiyonunu çağırarak topla.
-            return fibonachi(n-1)+fibonachi(n-2);
+            return fibonachi(n - 1) + fibonachi(n - 2);
         }
     }
 
