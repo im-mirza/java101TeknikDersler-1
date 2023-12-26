@@ -8,8 +8,8 @@ public class MatrisTranspozu {
         };
 
         // Matrisin boyutlarını al
-        int satirSayisi = matris.length;
-        int sutunSayisi = matris[0].length;
+        int satirSayisi = matris.length;//3
+        int sutunSayisi = matris[0].length;//3
 
         // Matris transpozu için yeni bir array oluştur
         int[][] transpoz = new int[sutunSayisi][satirSayisi];
@@ -38,6 +38,6 @@ public class MatrisTranspozu {
             System.out.println();
         }
     }
-    
+
 
 }
